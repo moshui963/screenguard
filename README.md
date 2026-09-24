@@ -2,9 +2,9 @@
 
 # 🛡️ ScreenGuard · 屏净
 
-**Automatically close annoying desktop popups on Windows — 100% local AI, zero cloud, privacy-first.**
+**A Windows desktop tool that uses local AI to automatically detect and close annoying popups — 100% offline, zero cloud, privacy-first.**
 
-自动识别并关闭桌面弹窗的 Windows 桌面端工具 · 全程本地推理 · 画面绝不离开你的电脑
+基于本地 AI 的 Windows 桌面弹窗自动关闭工具 · 全程离线推理 · 画面绝不上传云端 · 纯 Go 运行时动态加载 ONNX Runtime（无需 C 编译器 / CGO）
 
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
