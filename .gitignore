@@ -1,0 +1,52 @@
+# ===== ScreenGuard .gitignore =====
+
+# Build output — keep icon & tray assets so builds work from a fresh clone
+/build/*
+!/build/appicon.ico
+!/build/tray_*.png
+
+# Binaries & archives (supplied via fetch_deps.ps1 / GitHub Releases)
+*.exe
+*.dll
+*.pdb
+*.zip
+
+# Model & runtime weights (custom model + ONNX Runtime, not in git)
+*.onnx
+*.pt
+/yolo模型/
+/redetr_v2.onnx
+/third_party/
+
+# Runtime data & logs
+/data/
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.crash
+
+# Frontend generated artifacts
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/vite.config.ts.timestamp-*
+/frontend/*.tsbuildinfo
+
+# Local caches / backups / private project memory
+/.old_dist_bak/
+/.workbuddy/
+__pycache__/
+*.pyc
+.venv/
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets / local env
+.env
+*.local

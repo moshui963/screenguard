@@ -1,0 +1,41 @@
+version: "v1-default"
+classes:
+  TanChuang:
+    conf: 0.40
+    mode: disabled
+  GuanBi:
+    conf: 0.30
+    mode: click
+  GuanBi_str:
+    conf: 0.45
+    mode: click
+  ZhiDaoLe:
+    conf: 0.45
+    mode: click
+  TiaoGuo:
+    conf: 0.45
+    mode: click
+  WoBuShou:
+    conf: 0.45
+    mode: click
+  QuXiao:
+    conf: 0.55
+    mode: click
+  YunXu:
+    conf: 0.65
+    mode: report
+  TuiChu:
+    conf: 0.70
+    mode: report
+  XiaYiBu:
+    conf: 0.75
+    mode: report
+forbidden_zones:
+  fullscreen_app: true
+  screen_lock: true
+  screen_share: true
+  remote_desktop: true
+  low_battery: true
+  install_wizard: true
+  uac_security_prompt: true
+blacklist: []

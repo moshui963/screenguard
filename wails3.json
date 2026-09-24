@@ -1,0 +1,29 @@
+{
+    "name":  "screenguard",
+    "version":  "0.34",
+    "description":  "屏净 ScreenGuard — 自动识别并关闭桌面弹窗",
+    "platform":  "windows",
+    "frontend":  "frontend",
+    "frontend:dev":  "npm run dev",
+    "frontend:build":  "npm run build",
+    "frontend:install":  "npm install",
+    "outputname":  "screenguard",
+    "wailsjsdir":  "frontend/src",
+    "info":  {
+                 "companyName":  "ScreenGuard",
+                 "productName":  "屏净 ScreenGuard",
+                 "productIdentifier":  "ai.screenguard.app",
+                 "copyright":  "Copyright © 2026 ScreenGuard",
+                 "windows":  {
+                                 "icon":  "build/appicon.ico",
+                                 "copyright":  "Copyright © 2026 ScreenGuard",
+                                 "originalFilename":  "screenguard.exe",
+                                 "requestedExecutionLevel":  "asInvoker",
+                                 "productVersion":  "0.34",
+                                 "fileVersion":  "0.34"
+                             }
+             },
+    "bindings":  {
+                     "outputdir":  "frontend/src/bindings"
+                 }
+}
