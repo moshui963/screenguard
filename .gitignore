@@ -5,6 +5,9 @@
 !/build/appicon.ico
 !/build/tray_*.png
 
+# Release artifacts produced by scripts/package-release.ps1 (published to GitHub Releases instead)
+/dist/
+
 # Binaries & archives (supplied via fetch_deps.ps1 / GitHub Releases)
 *.exe
 *.dll

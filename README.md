@@ -10,6 +10,8 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/platform-Windows%2010%2B-0078D6.svg" alt="Platform: Windows 10+">
   <img src="https://img.shields.io/badge/version-v0.34-brightgreen.svg" alt="Version: v0.34">
+  <img src="https://img.shields.io/github/v/release/moshui963/screenguard?label=release&color=success" alt="Latest release">
+  <img src="https://img.shields.io/github/downloads/moshui963/screenguard/total?label=downloads&color=informational" alt="Total downloads">
   <img src="https://img.shields.io/badge/Go-1.21%2B-00ADD8.svg" alt="Go: 1.21+">
   <img src="https://img.shields.io/badge/build-CGO__DISABLED-9f9f9f.svg" alt="Pure Go build">
 </p>
@@ -42,7 +44,9 @@
 ## 🚀 Quick Start · 快速开始
 
 ### Option A — Download prebuilt（推荐 / 最简单）
-前往 **[Releases](../../releases)**，下载 `screenguard-windows-amd64.zip`，解压后运行 `screenguard.exe`。
+前往 **[Releases](https://github.com/moshui963/screenguard/releases)**，下载最新 `screenguard-windows-amd64-vX.Y.Z.zip`，解压后双击 `screenguard.exe` 即可。
+
+> 开箱即用包已含 `onnxruntime.dll` 与 `yolo26m.onnx`，无需额外下载模型或运行时。
 发布包已内含 `onnxruntime.dll` + `yolo26m.onnx` + 配置，开箱即用。
 
 ### Option B — Build from source
